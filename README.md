@@ -1,5 +1,5 @@
 # hw02_test_files
-Input CSVs for testing Homework for COMS 327 (Fall 2015).
+Input CSVs for testing Homework 2 for COMS 327 (Fall 2015).
 
 You can download all the files in their current state using the 'Download zip' at the bottom right at the page, if you are familiar with git I recommend you use that.
 
