@@ -1,0 +1,11 @@
+header_invalid0:
+	extra comma in headers (inside)
+
+header_invalid1:
+	extra comma in headers (trailing)
+
+header_invalid2:
+	extra comma in headers (leading)
+
+header_invalid3:
+	bogus header (BOGUS)
