@@ -53,6 +53,12 @@ data_invalid5:
 	Removes a necessary field from the end of one of the rows.
 	Error at Line 5.
 
+## Invalid other
+
+empty_row_invalid:
+	An empty row is included within the data, I do not believe this is allowed.
+	Error at Line 8.
+
 ## Valid Files
 
 valid_format0:
