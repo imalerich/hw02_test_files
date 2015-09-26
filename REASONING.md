@@ -45,6 +45,14 @@ data_invalid3:
 	Wind Dir is out of the allowed range of values.
 	Error at Line 2.
 
+data_invalid4:
+	Removes a necessary field from the inside of one of the rows.
+	Error at Line 5.
+
+data_invalid5:
+	Removes a necessary field from the end of one of the rows.
+	Error at Line 5.
+
 ## Valid Files
 
 valid_format0:
@@ -59,3 +67,9 @@ valid_format1:
 valid_format2:
 	Inputs a double using integer syntax, but is still within the acceptable range for that value.
 	No Error.
+
+valid_format3:
+	Removes a necessary field from the end of one of the rows like data_invalid5,
+	however a comma is added, so it is an empty field, because it is Wind Dir
+	a default value can be assigned.
+	Error at Line 5.
