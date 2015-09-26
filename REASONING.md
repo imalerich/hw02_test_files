@@ -37,11 +37,11 @@ data_invalid1:
 
 ## Valid
 
-header_valid0:
+valid_format0:
 	I do not know if they will test for this, but I do not believe are test should be case sensitive
 	correct me if I am wrong ;)
 	No Error.
 
-header_valid1:
+valid_format1:
 	Uses different ordering in the headers, but is still valid
 	No Error.
