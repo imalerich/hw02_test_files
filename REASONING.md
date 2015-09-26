@@ -25,7 +25,7 @@ header_invalid4:
 	the pdf says we can assume all headers will be shorter than 64 characters,
 	so we probably will not be tested on this, but makes for more robust code.
 	1st Header is invalid.
-	Error at Line 0.
+	Error at Line 1.
 
 header_invalid5:
 	The NCDC header is listed twice.
@@ -35,11 +35,11 @@ header_invalid5:
 
 data_invalid0:
 	RHx should not be a double.
-	Error at Line 1.
+	Error at Line 2.
 
 data_invalid1:
 	Wind Dir should not be a double.
-	Error at Line 6.
+	Error at Line 7.
 
 data_invalid2:
 	USAF expects an integer, a string type is provided.
