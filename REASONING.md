@@ -1,4 +1,4 @@
-## Invalid
+## Invalid Headers
 
 header_invalid0:
 	extra comma in headers (inside)
@@ -27,6 +27,8 @@ header_invalid4:
 	1st Header is invalid.
 	Error at Line 0.
 
+## Invalid Data
+
 data_invalid0:
 	RHx should not be a double.
 	Error at Line 1.
@@ -43,7 +45,7 @@ data_invalid3:
 	Wind Dir is out of the allowed range of values.
 	Error at Line 2.
 
-## Valid
+## Valid Files
 
 valid_format0:
 	I do not know if they will test for this, but I do not believe are test should be case sensitive
