@@ -3,22 +3,22 @@
 header_invalid0:
 	extra comma in headers (inside)
 	3rd Header is invalid.
-	Error at Line 0.
+	Error at Line 1.
 
 header_invalid1:
 	extra comma in headers (trailing)
 	6th Header is invalid.
-	Error at Line 0.
+	Error at Line 1.
 
 header_invalid2:
 	extra comma in headers (leading)
 	1st Header is invalid.
-	Error at Line 0.
+	Error at Line 1.
 
 header_invalid3:
 	bogus header (BOGUS)
 	4th Header is invalid.
-	Error at Line 0.
+	Error at Line 1.
 
 header_invalid4:
 	the first header is invalid for obvious reasons, but is longer than 64 characters,
@@ -26,6 +26,10 @@ header_invalid4:
 	so we probably will not be tested on this, but makes for more robust code.
 	1st Header is invalid.
 	Error at Line 0.
+
+header_invalid5:
+	The NCDC header is listed twice.
+	Error at Line 1.
 
 ## Invalid Data
 
