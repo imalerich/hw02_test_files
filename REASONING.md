@@ -35,6 +35,14 @@ data_invalid1:
 	Wind Dir should not be a double.
 	Error at Line 6.
 
+data_invalid2:
+	USAF expects an integer, a string type is provided.
+	Error at Line 6.
+
+data_invalid3:
+	Wind Dir is out of the allowed range of values.
+	Error at Line 2.
+
 ## Valid
 
 valid_format0:
@@ -44,4 +52,8 @@ valid_format0:
 
 valid_format1:
 	Uses different ordering in the headers, but is still valid
+	No Error.
+
+valid_format2:
+	Inputs a double using integer syntax, but is still within the acceptable range for that value.
 	No Error.
