@@ -63,6 +63,10 @@ empty_row_invalid:
 	An empty row is included within the data, I do not believe this is allowed.
 	Error at Line 8.
 
+empty_invalid:
+	A completely empty file, not valid in the slightest.
+	Error at Line 0.
+
 ## Valid Files
 
 valid_format0:
