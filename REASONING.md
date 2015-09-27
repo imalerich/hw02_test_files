@@ -31,6 +31,10 @@ header_invalid5:
 	The NCDC header is listed twice.
 	Error at Line 1.
 
+header_invalid6:
+	Headers are not allowed to have spaces in front of them, as per the blackboard discussion.
+	Error at Line 1.
+
 ## Invalid Data
 
 data_invalid0:
