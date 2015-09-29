@@ -61,6 +61,10 @@ data_invalid5:
 	Removes a necessary field from the end of one of the rows.
 	Error at Line 5.
 
+data_invalid6:
+	Adds an extra field to the end of one of the rows.
+	Error at Line 5.
+
 ## Invalid other
 
 empty_row_invalid:
