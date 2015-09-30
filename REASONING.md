@@ -73,7 +73,11 @@ empty_row_invalid:
 
 empty_invalid:
 	A completely empty file, not valid in the slightest.
-	Error at Line 0.
+	Error at Line 1.
+
+no_data_invalid:
+	A file must have at least one row of data in it to be considered value.
+	Error at Line 1.
 
 ## Valid Files
 
